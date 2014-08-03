@@ -8,7 +8,7 @@ Guilloche creates [Guilloché Patterns](http://en.wikipedia.org/wiki/Guilloch%C3
 
 #import 'GuillocheView.h'
 
-GuillocheView *guillocheView = [[GuillocheView alloc] init]; // Creates a Guilloche pattern randomly
+GuillocheView *guillocheView = [[GuillocheView alloc] init]; // Creates a Guilloche pattern with default values
 [self.view addSubview:guillocheView]; // add to the current view
 
 ```
