@@ -22,7 +22,7 @@ GuillocheView supports the following attributes:
 ```
 float scale;
 float steps;
-float	multiplier;
+float multiplier;
 float majorRipple;
 float minorRipple;
 float radius;
