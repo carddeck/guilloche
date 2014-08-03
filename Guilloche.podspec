@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.requires_arc = true
   s.source       = { :git => "https://github.com/carddeck/guilloche.git", :tag => "0.0.2" }
-  s.screenshots = [ "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-controls.png",
-                    "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-fullscreen.png",
-					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt.png",
-					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt2.png"
+  s.screenshots = [ "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-controls.png?raw=true",
+                    "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-fullscreen.png?raw=true",
+					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt.png?raw=true",
+					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt2.png?raw=true"
 				]
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
