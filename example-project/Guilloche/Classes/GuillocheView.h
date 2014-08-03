@@ -10,4 +10,15 @@
 
 @interface GuillocheView : UIView
 
+@property (nonatomic) float scale;
+@property (nonatomic) float steps;
+@property (nonatomic) float	multiplier;
+@property (nonatomic) float majorRipple;
+@property (nonatomic) float minorRipple;
+@property (nonatomic) float radius;
+@property (nonatomic) float opacity;
+@property (nonatomic) float lineThickness;
+@property (nonatomic, strong) UIColor *lineColor1;
+@property (nonatomic, strong) UIColor *lineColor2;
+
 @end
