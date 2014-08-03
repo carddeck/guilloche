@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/carddeck/guilloche"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Zane Shannon" => "zcs@smileslaughs.com" }
   s.social_media_url   = "http://twitter.com/zaneshannon"
   s.platform     = :ios, "7.0"
