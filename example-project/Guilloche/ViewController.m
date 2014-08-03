@@ -10,14 +10,31 @@
 
 @interface ViewController ()
 
+- (void) fullScreenGuillocheView:(id)sender;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+bool guillocheIsFullScreen = false;
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(fullScreenGuillocheView:)];
+	[self.guillocheView addGestureRecognizer:singleTapGestureRecognizer];
+}
+
+- (void) fullScreenGuillocheView:(id)sender {
+	if (guillocheIsFullScreen) {
+		self.controlsView.hidden = NO;
+		self.guillocheView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.controlsView.frame.origin.y);
+	}
+	else {
+		self.controlsView.hidden = YES;
+		self.guillocheView.frame = self.view.frame;
+	}
+	[self.guillocheView setNeedsDisplay];
+	guillocheIsFullScreen = !guillocheIsFullScreen;
 }
 
 - (void) sliderValueChanged:(id)sender {

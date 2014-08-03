@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet GuillocheView *guillocheView;
+@property (nonatomic, strong) IBOutlet UIView *controlsView;
 
 @property (nonatomic, strong) IBOutlet UISlider *scaleSlider;
 @property (nonatomic, strong) IBOutlet UISlider *stepsSlider;
