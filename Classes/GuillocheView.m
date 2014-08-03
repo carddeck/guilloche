@@ -24,11 +24,12 @@
 
 @implementation GuillocheView
 
-int _section_length = 10;
+int _section_length = 5;
 
-@synthesize scale = _amplitude, steps = _steps, multiplier = _m, majorRipple = _R, minorRipple = _r, radius = _p, opacity = _opacity, lineThickness = _thickness, lineColor1 = _lineColor1, lineColor2 = _lineColor2;
+@synthesize scale = _amplitude, steps = _steps, multiplier = _m, majorRipple = _R, minorRipple = _r, radius = _p, opacity = _opacity, lineThickness = _thickness, lineColors = _lineColors;
 
 - (void)drawRect:(CGRect)rect {
+	if (_lineColors == nil) _lineColors = @[[UIColor blackColor]];
 	// We need the offset to center the pattern in the rect
 	float offsetX = rect.size.width / 2.0f;
 	float offsetY = rect.size.height / 2.0f;
@@ -48,6 +49,7 @@ int _section_length = 10;
 	float s = (_R + _r) / _r;
 	float rR = _r + _R;
 	float rp = _r + _p;
+	int _lineColorsCount = _lineColors.count;
 	
 	for (int t = 0; t <= _steps; t++) {
 		x = rR * cos(_m * theta) + rp * cos(s * _m * theta);
@@ -57,7 +59,8 @@ int _section_length = 10;
 		y *= _amplitude;
 		
 		if (sl == 0) {
-			// TODO: change the line color here
+			CGContextSetStrokeColorWithColor(context, (CGColorRef)((UIColor*) _lineColors[t % _lineColorsCount]).CGColor);
+			
 			if (t == 0) {
 				CGContextMoveToPoint(context, x + offsetX, y + offsetY);
 			}
@@ -65,6 +68,7 @@ int _section_length = 10;
 				CGContextMoveToPoint(context, ox + offsetX, oy + offsetY);
 				CGContextAddLineToPoint(context, x + offsetX, y + offsetY);
 			}
+			
 		}
 		else {
 			CGContextAddLineToPoint(context, x + offsetX, y + offsetY);
@@ -75,9 +79,13 @@ int _section_length = 10;
 		sl++;
 		theta += thetaStep;
 		
-		if (sl == _section_length) sl = 0;
+		if (sl == _section_length) {
+			sl = 0;
+			CGContextStrokePath(context);
+		}
+		
 	}
-	CGContextStrokePath(context);
+	
 }
 
 #pragma mark - Initilization Methods
@@ -107,8 +115,7 @@ int _section_length = 10;
 	_p = 33.0f;
 	_opacity = 0.3f;
 	_thickness = 1.0f;
-	_lineColor1 = [UIColor blackColor];
-	_lineColor2 = [UIColor blackColor];
+	_lineColors = @[[UIColor blackColor], [UIColor redColor], [UIColor greenColor], [UIColor blueColor]];
 }
 
 # pragma mark - Instance Variable Setters
@@ -161,13 +168,8 @@ int _section_length = 10;
 	[self setNeedsDisplay];
 }
 
-- (void) setLineColor1:(UIColor *)lineColor1 {
-	_lineColor1 = lineColor1;
-	[self setNeedsDisplay];
-}
-
-- (void) setLineColor2:(UIColor *)lineColor2 {
-	_lineColor2 = lineColor2;
+- (void) setLineColors:(NSArray *)lineColors {
+	_lineColors = lineColors;
 	[self setNeedsDisplay];
 }
 

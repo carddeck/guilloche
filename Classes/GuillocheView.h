@@ -18,7 +18,6 @@
 @property (nonatomic) float radius;
 @property (nonatomic) float opacity;
 @property (nonatomic) float lineThickness;
-@property (nonatomic, strong) UIColor *lineColor1;
-@property (nonatomic, strong) UIColor *lineColor2;
+@property (nonatomic, strong) NSArray *lineColors;
 
 @end
