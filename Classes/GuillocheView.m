@@ -35,6 +35,7 @@ int _section_length = 10;
 	
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGContextSetLineWidth(context, _thickness);
+	// TODO: support opacity
 	float x;
 	float y;
 	float ox = 0.0;

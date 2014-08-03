@@ -21,7 +21,7 @@
 		114A9FE4198DEAB900FCA1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC6198DEAB900FCA1AA /* UIKit.framework */; };
 		114A9FEC198DEAB900FCA1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */; };
 		114A9FEE198DEAB900FCA1AA /* GuillocheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FED198DEAB900FCA1AA /* GuillocheTests.m */; };
-		1169FFB8198DEB1E0038635E /* GuillocheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1169FFB7198DEB1E0038635E /* GuillocheView.m */; };
+		1169FFBB198E0ADC0038635E /* GuillocheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1169FFBA198E0ADC0038635E /* GuillocheView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		114A9FE9198DEAB900FCA1AA /* GuillocheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuillocheTests-Info.plist"; sourceTree = "<group>"; };
 		114A9FEB198DEAB900FCA1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		114A9FED198DEAB900FCA1AA /* GuillocheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuillocheTests.m; sourceTree = "<group>"; };
-		1169FFB6198DEB1E0038635E /* GuillocheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillocheView.h; path = Classes/GuillocheView.h; sourceTree = "<group>"; };
-		1169FFB7198DEB1E0038635E /* GuillocheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuillocheView.m; path = Classes/GuillocheView.m; sourceTree = "<group>"; };
+		1169FFB9198E0ADC0038635E /* GuillocheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillocheView.h; path = ../../Classes/GuillocheView.h; sourceTree = "<group>"; };
+		1169FFBA198E0ADC0038635E /* GuillocheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuillocheView.m; path = ../../Classes/GuillocheView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		1169FFB5198DEAF50038635E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1169FFB6198DEB1E0038635E /* GuillocheView.h */,
-				1169FFB7198DEB1E0038635E /* GuillocheView.m */,
+				1169FFB9198E0ADC0038635E /* GuillocheView.h */,
+				1169FFBA198E0ADC0038635E /* GuillocheView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114A9FD9198DEAB900FCA1AA /* ViewController.m in Sources */,
-				1169FFB8198DEB1E0038635E /* GuillocheView.m in Sources */,
+				1169FFBB198E0ADC0038635E /* GuillocheView.m in Sources */,
 				114A9FD3198DEAB900FCA1AA /* AppDelegate.m in Sources */,
 				114A9FCF198DEAB900FCA1AA /* main.m in Sources */,
 			);
