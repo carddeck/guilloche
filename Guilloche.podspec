@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Guilloche"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Guilloche creates Guilloche patterns in a UIView."
 
   s.description  = <<-DESC
@@ -13,7 +13,12 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/zaneshannon"
   s.platform     = :ios, "7.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/carddeck/guilloche.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/carddeck/guilloche.git", :tag => "0.0.2" }
+  s.screenshots = [ "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-controls.png",
+                    "https://github.com/carddeck/guilloche/blob/screenshots/screenshots/default-fullscreen.png",
+					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt.png",
+					"https://github.com/carddeck/guilloche/blob/screenshots/screenshots/fullscreen-alt2.png"
+				]
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.public_header_files = ['Classes/GuillocheView.h']
