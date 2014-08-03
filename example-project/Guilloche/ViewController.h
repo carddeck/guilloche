@@ -22,6 +22,14 @@
 @property (nonatomic, strong) IBOutlet UISlider *radiusSlider;
 @property (nonatomic, strong) IBOutlet UISlider *opacitySlider;
 @property (nonatomic, strong) IBOutlet UISlider *lineThicknessSlider;
+@property (nonatomic, strong) IBOutlet UILabel *scaleSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *stepsSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *multiplierSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *majorRippleSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *minorRippleSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *radiusSliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *opacitySliderLabel;
+@property (nonatomic, strong) IBOutlet UILabel *lineThicknessSliderLabel;
 
 - (IBAction) sliderValueChanged:(id)sender;
 
