@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114A9FC3198DEAB900FCA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC2198DEAB900FCA1AA /* Foundation.framework */; };
+		114A9FC5198DEAB900FCA1AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */; };
+		114A9FC7198DEAB900FCA1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC6198DEAB900FCA1AA /* UIKit.framework */; };
+		114A9FCD198DEAB900FCA1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */; };
+		114A9FCF198DEAB900FCA1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FCE198DEAB900FCA1AA /* main.m */; };
+		114A9FD3198DEAB900FCA1AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FD2198DEAB900FCA1AA /* AppDelegate.m */; };
+		114A9FD6198DEAB900FCA1AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FD4198DEAB900FCA1AA /* Main.storyboard */; };
+		114A9FD9198DEAB900FCA1AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FD8198DEAB900FCA1AA /* ViewController.m */; };
+		114A9FDB198DEAB900FCA1AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FDA198DEAB900FCA1AA /* Images.xcassets */; };
+		114A9FE2198DEAB900FCA1AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FE1198DEAB900FCA1AA /* XCTest.framework */; };
+		114A9FE3198DEAB900FCA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC2198DEAB900FCA1AA /* Foundation.framework */; };
+		114A9FE4198DEAB900FCA1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC6198DEAB900FCA1AA /* UIKit.framework */; };
+		114A9FEC198DEAB900FCA1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */; };
+		114A9FEE198DEAB900FCA1AA /* GuillocheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FED198DEAB900FCA1AA /* GuillocheTests.m */; };
+		1169FFB8198DEB1E0038635E /* GuillocheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1169FFB7198DEB1E0038635E /* GuillocheView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114A9FE5198DEAB900FCA1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114A9FB7198DEAB800FCA1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114A9FBE198DEAB800FCA1AA;
+			remoteInfo = Guilloche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114A9FBF198DEAB800FCA1AA /* Guilloche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guilloche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A9FC2198DEAB900FCA1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		114A9FC6198DEAB900FCA1AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		114A9FCA198DEAB900FCA1AA /* Guilloche-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guilloche-Info.plist"; sourceTree = "<group>"; };
+		114A9FCC198DEAB900FCA1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		114A9FCE198DEAB900FCA1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		114A9FD0198DEAB900FCA1AA /* Guilloche-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guilloche-Prefix.pch"; sourceTree = "<group>"; };
+		114A9FD1198DEAB900FCA1AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		114A9FD2198DEAB900FCA1AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		114A9FD5198DEAB900FCA1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114A9FD7198DEAB900FCA1AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		114A9FD8198DEAB900FCA1AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		114A9FDA198DEAB900FCA1AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuillocheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A9FE1198DEAB900FCA1AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		114A9FE9198DEAB900FCA1AA /* GuillocheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuillocheTests-Info.plist"; sourceTree = "<group>"; };
+		114A9FEB198DEAB900FCA1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		114A9FED198DEAB900FCA1AA /* GuillocheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuillocheTests.m; sourceTree = "<group>"; };
+		1169FFB6198DEB1E0038635E /* GuillocheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillocheView.h; path = Classes/GuillocheView.h; sourceTree = "<group>"; };
+		1169FFB7198DEB1E0038635E /* GuillocheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuillocheView.m; path = Classes/GuillocheView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114A9FBC198DEAB800FCA1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FC5198DEAB900FCA1AA /* CoreGraphics.framework in Frameworks */,
+				114A9FC7198DEAB900FCA1AA /* UIKit.framework in Frameworks */,
+				114A9FC3198DEAB900FCA1AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDD198DEAB900FCA1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FE2198DEAB900FCA1AA /* XCTest.framework in Frameworks */,
+				114A9FE4198DEAB900FCA1AA /* UIKit.framework in Frameworks */,
+				114A9FE3198DEAB900FCA1AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114A9FB6198DEAB800FCA1AA = {
+			isa = PBXGroup;
+			children = (
+				114A9FC8198DEAB900FCA1AA /* Guilloche */,
+				114A9FE7198DEAB900FCA1AA /* GuillocheTests */,
+				114A9FC1198DEAB800FCA1AA /* Frameworks */,
+				114A9FC0198DEAB800FCA1AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		114A9FC0198DEAB800FCA1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FBF198DEAB800FCA1AA /* Guilloche.app */,
+				114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114A9FC1198DEAB800FCA1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FC2198DEAB900FCA1AA /* Foundation.framework */,
+				114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */,
+				114A9FC6198DEAB900FCA1AA /* UIKit.framework */,
+				114A9FE1198DEAB900FCA1AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		114A9FC8198DEAB900FCA1AA /* Guilloche */ = {
+			isa = PBXGroup;
+			children = (
+				1169FFB5198DEAF50038635E /* Classes */,
+				114A9FD1198DEAB900FCA1AA /* AppDelegate.h */,
+				114A9FD2198DEAB900FCA1AA /* AppDelegate.m */,
+				114A9FD4198DEAB900FCA1AA /* Main.storyboard */,
+				114A9FD7198DEAB900FCA1AA /* ViewController.h */,
+				114A9FD8198DEAB900FCA1AA /* ViewController.m */,
+				114A9FDA198DEAB900FCA1AA /* Images.xcassets */,
+				114A9FC9198DEAB900FCA1AA /* Supporting Files */,
+			);
+			path = Guilloche;
+			sourceTree = "<group>";
+		};
+		114A9FC9198DEAB900FCA1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FCA198DEAB900FCA1AA /* Guilloche-Info.plist */,
+				114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */,
+				114A9FCE198DEAB900FCA1AA /* main.m */,
+				114A9FD0198DEAB900FCA1AA /* Guilloche-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		114A9FE7198DEAB900FCA1AA /* GuillocheTests */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FED198DEAB900FCA1AA /* GuillocheTests.m */,
+				114A9FE8198DEAB900FCA1AA /* Supporting Files */,
+			);
+			path = GuillocheTests;
+			sourceTree = "<group>";
+		};
+		114A9FE8198DEAB900FCA1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FE9198DEAB900FCA1AA /* GuillocheTests-Info.plist */,
+				114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1169FFB5198DEAF50038635E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1169FFB6198DEB1E0038635E /* GuillocheView.h */,
+				1169FFB7198DEB1E0038635E /* GuillocheView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114A9FBE198DEAB800FCA1AA /* Guilloche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114A9FF1198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "Guilloche" */;
+			buildPhases = (
+				114A9FBB198DEAB800FCA1AA /* Sources */,
+				114A9FBC198DEAB800FCA1AA /* Frameworks */,
+				114A9FBD198DEAB800FCA1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guilloche;
+			productName = Guilloche;
+			productReference = 114A9FBF198DEAB800FCA1AA /* Guilloche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		114A9FDF198DEAB900FCA1AA /* GuillocheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114A9FF4198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "GuillocheTests" */;
+			buildPhases = (
+				114A9FDC198DEAB900FCA1AA /* Sources */,
+				114A9FDD198DEAB900FCA1AA /* Frameworks */,
+				114A9FDE198DEAB900FCA1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114A9FE6198DEAB900FCA1AA /* PBXTargetDependency */,
+			);
+			name = GuillocheTests;
+			productName = GuillocheTests;
+			productReference = 114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114A9FB7198DEAB800FCA1AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "smiles+laughs co.";
+				TargetAttributes = {
+					114A9FDF198DEAB900FCA1AA = {
+						TestTargetID = 114A9FBE198DEAB800FCA1AA;
+					};
+				};
+			};
+			buildConfigurationList = 114A9FBA198DEAB800FCA1AA /* Build configuration list for PBXProject "Guilloche" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114A9FB6198DEAB800FCA1AA;
+			productRefGroup = 114A9FC0198DEAB800FCA1AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114A9FBE198DEAB800FCA1AA /* Guilloche */,
+				114A9FDF198DEAB900FCA1AA /* GuillocheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114A9FBD198DEAB800FCA1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FDB198DEAB900FCA1AA /* Images.xcassets in Resources */,
+				114A9FCD198DEAB900FCA1AA /* InfoPlist.strings in Resources */,
+				114A9FD6198DEAB900FCA1AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDE198DEAB900FCA1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FEC198DEAB900FCA1AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114A9FBB198DEAB800FCA1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FD9198DEAB900FCA1AA /* ViewController.m in Sources */,
+				1169FFB8198DEB1E0038635E /* GuillocheView.m in Sources */,
+				114A9FD3198DEAB900FCA1AA /* AppDelegate.m in Sources */,
+				114A9FCF198DEAB900FCA1AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDC198DEAB900FCA1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FEE198DEAB900FCA1AA /* GuillocheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114A9FE6198DEAB900FCA1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114A9FBE198DEAB800FCA1AA /* Guilloche */;
+			targetProxy = 114A9FE5198DEAB900FCA1AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FCC198DEAB900FCA1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		114A9FD4198DEAB900FCA1AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FD5198DEAB900FCA1AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FEB198DEAB900FCA1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114A9FEF198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		114A9FF0198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114A9FF2198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "Guilloche/Guilloche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		114A9FF3198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "Guilloche/Guilloche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		114A9FF5198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuillocheTests/GuillocheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		114A9FF6198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "GuillocheTests/GuillocheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114A9FBA198DEAB800FCA1AA /* Build configuration list for PBXProject "Guilloche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FEF198DEAB900FCA1AA /* Debug */,
+				114A9FF0198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114A9FF1198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "Guilloche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FF2198DEAB900FCA1AA /* Debug */,
+				114A9FF3198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114A9FF4198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "GuillocheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FF5198DEAB900FCA1AA /* Debug */,
+				114A9FF6198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114A9FB7198DEAB800FCA1AA /* Project object */;
+}
