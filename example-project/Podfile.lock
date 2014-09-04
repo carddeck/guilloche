@@ -1,0 +1,10 @@
+PODS:
+  - ZCSHoldProgress (0.0.4)
+
+DEPENDENCIES:
+  - ZCSHoldProgress (~> 0.0.4)
+
+SPEC CHECKSUMS:
+  ZCSHoldProgress: 6c463e81bbbb403206e04bba6ba7704a37788c34
+
+COCOAPODS: 0.33.1
