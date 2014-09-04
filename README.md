@@ -2,7 +2,7 @@
 
 Guilloche creates [Guilloché Patterns](http://en.wikipedia.org/wiki/Guilloch%C3%A9) in UIViews. It's based heavily on [Tom Beddard](http://www.subblue.com/about)'s AS3 source code and [Guilloche Pattern Generator](http://www.subblue.com/projects/guilloche). We use it to generate unique backs for each deck of cards.
 
-** In the example application, single tapping on the GuillocheView will toggle full-screen viewing. **
+*In the example application, single tapping on the GuillocheView will toggle full-screen viewing.*
 
 ## Usage ##
 
