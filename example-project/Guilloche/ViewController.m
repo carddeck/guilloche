@@ -27,13 +27,6 @@ bool guillocheIsFullScreen = false;
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	ZCSHoldProgress *longPressGestureRecognizer = [[ZCSHoldProgress alloc] initWithTarget:self action:@selector(saveToLibrary:)];
-	longPressGestureRecognizer.minimumPressDuration = 1.0f;
-	[self.guillocheView addGestureRecognizer:longPressGestureRecognizer];
-	UITapGestureRecognizer *singleTapGestureRecognizer =
-		[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(fullScreenGuillocheView:)];
-	[singleTapGestureRecognizer requireGestureRecognizerToFail:longPressGestureRecognizer];
-	[self.guillocheView addGestureRecognizer:singleTapGestureRecognizer];
 	self.whiteScreen = [[UIView alloc] initWithFrame:self.view.frame];
 	self.whiteScreen.layer.opacity = 0.0f;
 	self.whiteScreen.layer.backgroundColor = [[UIColor whiteColor] CGColor];
@@ -49,6 +42,25 @@ bool guillocheIsFullScreen = false;
 	self.lineThicknessSliderLabel.text = [NSString stringWithFormat:@"Thickness: %f", self.lineThicknessSlider.value];
 
 	self.guillocheView.lineColors = @[ [UIColor blackColor] ];
+	for (UIView *view in self.controlsView.subviews) {
+		NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:view
+																		   attribute:NSLayoutAttributeWidth
+																		   relatedBy:NSLayoutRelationEqual
+																			  toItem:view.superview
+																		   attribute:NSLayoutAttributeWidth
+																		  multiplier:0.40
+																			constant:0];
+		
+		[view.superview addConstraints:@[widthConstraint]];
+	}
+	
+	ZCSHoldProgress *longPressGestureRecognizer = [[ZCSHoldProgress alloc] initWithTarget:self action:@selector(saveToLibrary:)];
+	longPressGestureRecognizer.minimumPressDuration = 1.0f;
+	[self.guillocheView addGestureRecognizer:longPressGestureRecognizer];
+	UITapGestureRecognizer *singleTapGestureRecognizer =
+	[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(fullScreenGuillocheView:)];
+	[singleTapGestureRecognizer requireGestureRecognizerToFail:longPressGestureRecognizer];
+	[self.guillocheView addGestureRecognizer:singleTapGestureRecognizer];
 }
 
 - (void)saveToLibrary:(UIGestureRecognizer *)gestureRecognizer {
@@ -77,12 +89,15 @@ bool guillocheIsFullScreen = false;
 
 - (void)fullScreenGuillocheView:(id)sender {
 	if (guillocheIsFullScreen) {
-		self.controlsView.hidden = NO;
-		self.guillocheView.frame = CGRectMake(0.0, 0.0, self.view.frame.size.width, self.controlsView.frame.origin.y);
+		self.halfScreenContstraint.priority = 100;
 	} else {
-		self.controlsView.hidden = YES;
-		self.guillocheView.frame = self.view.frame;
+		self.halfScreenContstraint.priority = 900;
 	}
+	[self.controlsView setNeedsUpdateConstraints];
+	
+	[UIView animateWithDuration:0.25f animations:^{
+		[self.controlsView layoutIfNeeded];
+	}];
 	[self.guillocheView setNeedsDisplay];
 	guillocheIsFullScreen = !guillocheIsFullScreen;
 }

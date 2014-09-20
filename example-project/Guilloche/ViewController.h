@@ -31,6 +31,9 @@
 @property (nonatomic, strong) IBOutlet UILabel *opacitySliderLabel;
 @property (nonatomic, strong) IBOutlet UILabel *lineThicknessSliderLabel;
 
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *fullScreenContstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *halfScreenContstraint;
+
 - (IBAction) sliderValueChanged:(id)sender;
 
 @end

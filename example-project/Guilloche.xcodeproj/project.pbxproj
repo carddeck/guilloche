@@ -1,1135 +1,532 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>114A9FB6198DEAB800FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FC8198DEAB900FCA1AA</string>
-				<string>114A9FE7198DEAB900FCA1AA</string>
-				<string>114A9FC1198DEAB800FCA1AA</string>
-				<string>114A9FC0198DEAB800FCA1AA</string>
-				<string>C11DA74D33D2438198147DD9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FB7198DEAB800FCA1AA</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>smiles+laughs co.</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>114A9FDF198DEAB900FCA1AA</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>114A9FBE198DEAB800FCA1AA</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>114A9FBA198DEAB800FCA1AA</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>114A9FB6198DEAB800FCA1AA</string>
-			<key>productRefGroup</key>
-			<string>114A9FC0198DEAB800FCA1AA</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>114A9FBE198DEAB800FCA1AA</string>
-				<string>114A9FDF198DEAB900FCA1AA</string>
-			</array>
-		</dict>
-		<key>114A9FBA198DEAB800FCA1AA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>114A9FEF198DEAB900FCA1AA</string>
-				<string>114A9FF0198DEAB900FCA1AA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>114A9FBB198DEAB800FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FD9198DEAB900FCA1AA</string>
-				<string>1169FFBB198E0ADC0038635E</string>
-				<string>114A9FD3198DEAB900FCA1AA</string>
-				<string>114A9FCF198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FBC198DEAB800FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FC5198DEAB900FCA1AA</string>
-				<string>114A9FC7198DEAB900FCA1AA</string>
-				<string>114A9FC3198DEAB900FCA1AA</string>
-				<string>BD69A163B32A4F58805640B2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FBD198DEAB800FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FDB198DEAB900FCA1AA</string>
-				<string>114A9FCD198DEAB900FCA1AA</string>
-				<string>114A9FD6198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FBE198DEAB800FCA1AA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>114A9FF1198DEAB900FCA1AA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1A2C67BEC73B4F8D8CD9EA79</string>
-				<string>114A9FBB198DEAB800FCA1AA</string>
-				<string>114A9FBC198DEAB800FCA1AA</string>
-				<string>114A9FBD198DEAB800FCA1AA</string>
-				<string>974E79EFBDEA46659ED8F001</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Guilloche</string>
-			<key>productName</key>
-			<string>Guilloche</string>
-			<key>productReference</key>
-			<string>114A9FBF198DEAB800FCA1AA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>114A9FBF198DEAB800FCA1AA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Guilloche.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>114A9FC0198DEAB800FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FBF198DEAB800FCA1AA</string>
-				<string>114A9FE0198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FC1198DEAB800FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FC2198DEAB900FCA1AA</string>
-				<string>114A9FC4198DEAB900FCA1AA</string>
-				<string>114A9FC6198DEAB900FCA1AA</string>
-				<string>114A9FE1198DEAB900FCA1AA</string>
-				<string>2AF0998A09D84B3BB3610ED9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FC2198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>114A9FC3198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FC2198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FC4198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>114A9FC5198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FC4198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FC6198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>114A9FC7198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FC6198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FC8198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1169FFB5198DEAF50038635E</string>
-				<string>114A9FD1198DEAB900FCA1AA</string>
-				<string>114A9FD2198DEAB900FCA1AA</string>
-				<string>114A9FD4198DEAB900FCA1AA</string>
-				<string>114A9FD7198DEAB900FCA1AA</string>
-				<string>114A9FD8198DEAB900FCA1AA</string>
-				<string>114A9FDA198DEAB900FCA1AA</string>
-				<string>114A9FC9198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Guilloche</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FC9198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FCA198DEAB900FCA1AA</string>
-				<string>114A9FCB198DEAB900FCA1AA</string>
-				<string>114A9FCE198DEAB900FCA1AA</string>
-				<string>114A9FD0198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FCA198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Guilloche-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FCB198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FCC198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FCC198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FCD198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FCB198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FCE198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FCF198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FCE198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FD0198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Guilloche-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD1198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD2198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD3198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FD2198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FD4198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FD5198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD5198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD6198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FD4198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FD7198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD8198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FD9198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FD8198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FDA198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FDB198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FDA198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FDC198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FEE198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FDD198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FE2198DEAB900FCA1AA</string>
-				<string>114A9FE4198DEAB900FCA1AA</string>
-				<string>114A9FE3198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FDE198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>114A9FEC198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>114A9FDF198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>114A9FF4198DEAB900FCA1AA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>114A9FDC198DEAB900FCA1AA</string>
-				<string>114A9FDD198DEAB900FCA1AA</string>
-				<string>114A9FDE198DEAB900FCA1AA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>114A9FE6198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GuillocheTests</string>
-			<key>productName</key>
-			<string>GuillocheTests</string>
-			<key>productReference</key>
-			<string>114A9FE0198DEAB900FCA1AA</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>114A9FE0198DEAB900FCA1AA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GuillocheTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>114A9FE1198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>114A9FE2198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FE1198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FE3198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FC2198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FE4198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FC6198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FE5198DEAB900FCA1AA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>114A9FB7198DEAB800FCA1AA</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>114A9FBE198DEAB800FCA1AA</string>
-			<key>remoteInfo</key>
-			<string>Guilloche</string>
-		</dict>
-		<key>114A9FE6198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>114A9FBE198DEAB800FCA1AA</string>
-			<key>targetProxy</key>
-			<string>114A9FE5198DEAB900FCA1AA</string>
-		</dict>
-		<key>114A9FE7198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FED198DEAB900FCA1AA</string>
-				<string>114A9FE8198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GuillocheTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FE8198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FE9198DEAB900FCA1AA</string>
-				<string>114A9FEA198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FE9198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>GuillocheTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FEA198DEAB900FCA1AA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>114A9FEB198DEAB900FCA1AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FEB198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FEC198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FEA198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FED198DEAB900FCA1AA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GuillocheTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>114A9FEE198DEAB900FCA1AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>114A9FED198DEAB900FCA1AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>114A9FEF198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>114A9FF0198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>114A9FF1198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>114A9FF2198DEAB900FCA1AA</string>
-				<string>114A9FF3198DEAB900FCA1AA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>114A9FF2198DEAB900FCA1AA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C11DA74D33D2438198147DD9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Guilloche/Guilloche-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Guilloche/Guilloche-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>114A9FF3198DEAB900FCA1AA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C11DA74D33D2438198147DD9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Guilloche/Guilloche-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Guilloche/Guilloche-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>114A9FF4198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>114A9FF5198DEAB900FCA1AA</string>
-				<string>114A9FF6198DEAB900FCA1AA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>114A9FF5198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Guilloche/Guilloche-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>GuillocheTests/GuillocheTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>114A9FF6198DEAB900FCA1AA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Guilloche/Guilloche-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GuillocheTests/GuillocheTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1169FFB5198DEAF50038635E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1169FFB9198E0ADC0038635E</string>
-				<string>1169FFBA198E0ADC0038635E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1169FFB9198E0ADC0038635E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GuillocheView.h</string>
-			<key>path</key>
-			<string>../../Classes/GuillocheView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1169FFBA198E0ADC0038635E</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GuillocheView.m</string>
-			<key>path</key>
-			<string>../../Classes/GuillocheView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1169FFBB198E0ADC0038635E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1169FFBA198E0ADC0038635E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A2C67BEC73B4F8D8CD9EA79</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2AF0998A09D84B3BB3610ED9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Guilloche.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>974E79EFBDEA46659ED8F001</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-Guilloche-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BD69A163B32A4F58805640B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AF0998A09D84B3BB3610ED9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C11DA74D33D2438198147DD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Guilloche.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-Guilloche.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>114A9FB7198DEAB800FCA1AA</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114A9FC3198DEAB900FCA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC2198DEAB900FCA1AA /* Foundation.framework */; };
+		114A9FC5198DEAB900FCA1AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */; };
+		114A9FC7198DEAB900FCA1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC6198DEAB900FCA1AA /* UIKit.framework */; };
+		114A9FCD198DEAB900FCA1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */; };
+		114A9FCF198DEAB900FCA1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FCE198DEAB900FCA1AA /* main.m */; };
+		114A9FD3198DEAB900FCA1AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FD2198DEAB900FCA1AA /* AppDelegate.m */; };
+		114A9FD6198DEAB900FCA1AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FD4198DEAB900FCA1AA /* Main.storyboard */; };
+		114A9FD9198DEAB900FCA1AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FD8198DEAB900FCA1AA /* ViewController.m */; };
+		114A9FDB198DEAB900FCA1AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FDA198DEAB900FCA1AA /* Images.xcassets */; };
+		114A9FE2198DEAB900FCA1AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FE1198DEAB900FCA1AA /* XCTest.framework */; };
+		114A9FE3198DEAB900FCA1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC2198DEAB900FCA1AA /* Foundation.framework */; };
+		114A9FE4198DEAB900FCA1AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A9FC6198DEAB900FCA1AA /* UIKit.framework */; };
+		114A9FEC198DEAB900FCA1AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */; };
+		114A9FEE198DEAB900FCA1AA /* GuillocheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114A9FED198DEAB900FCA1AA /* GuillocheTests.m */; };
+		11603BE419CE225A00CD1DDF /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11603BE319CE225A00CD1DDF /* Launch Screen.xib */; };
+		1169FFBB198E0ADC0038635E /* GuillocheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1169FFBA198E0ADC0038635E /* GuillocheView.m */; };
+		BD69A163B32A4F58805640B2 /* libPods-Guilloche.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF0998A09D84B3BB3610ED9 /* libPods-Guilloche.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114A9FE5198DEAB900FCA1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114A9FB7198DEAB800FCA1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114A9FBE198DEAB800FCA1AA;
+			remoteInfo = Guilloche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114A9FBF198DEAB800FCA1AA /* Guilloche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guilloche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A9FC2198DEAB900FCA1AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		114A9FC6198DEAB900FCA1AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		114A9FCA198DEAB900FCA1AA /* Guilloche-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guilloche-Info.plist"; sourceTree = "<group>"; };
+		114A9FCC198DEAB900FCA1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		114A9FCE198DEAB900FCA1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		114A9FD0198DEAB900FCA1AA /* Guilloche-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guilloche-Prefix.pch"; sourceTree = "<group>"; };
+		114A9FD1198DEAB900FCA1AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		114A9FD2198DEAB900FCA1AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		114A9FD5198DEAB900FCA1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114A9FD7198DEAB900FCA1AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		114A9FD8198DEAB900FCA1AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		114A9FDA198DEAB900FCA1AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuillocheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A9FE1198DEAB900FCA1AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		114A9FE9198DEAB900FCA1AA /* GuillocheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuillocheTests-Info.plist"; sourceTree = "<group>"; };
+		114A9FEB198DEAB900FCA1AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		114A9FED198DEAB900FCA1AA /* GuillocheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuillocheTests.m; sourceTree = "<group>"; };
+		11603BE319CE225A00CD1DDF /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		1169FFB9198E0ADC0038635E /* GuillocheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuillocheView.h; path = ../../Classes/GuillocheView.h; sourceTree = "<group>"; };
+		1169FFBA198E0ADC0038635E /* GuillocheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuillocheView.m; path = ../../Classes/GuillocheView.m; sourceTree = "<group>"; };
+		2AF0998A09D84B3BB3610ED9 /* libPods-Guilloche.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Guilloche.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11DA74D33D2438198147DD9 /* Pods-Guilloche.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guilloche.xcconfig"; path = "Pods/Pods-Guilloche.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114A9FBC198DEAB800FCA1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FC5198DEAB900FCA1AA /* CoreGraphics.framework in Frameworks */,
+				114A9FC7198DEAB900FCA1AA /* UIKit.framework in Frameworks */,
+				114A9FC3198DEAB900FCA1AA /* Foundation.framework in Frameworks */,
+				BD69A163B32A4F58805640B2 /* libPods-Guilloche.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDD198DEAB900FCA1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FE2198DEAB900FCA1AA /* XCTest.framework in Frameworks */,
+				114A9FE4198DEAB900FCA1AA /* UIKit.framework in Frameworks */,
+				114A9FE3198DEAB900FCA1AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114A9FB6198DEAB800FCA1AA = {
+			isa = PBXGroup;
+			children = (
+				114A9FC8198DEAB900FCA1AA /* Guilloche */,
+				114A9FE7198DEAB900FCA1AA /* GuillocheTests */,
+				114A9FC1198DEAB800FCA1AA /* Frameworks */,
+				114A9FC0198DEAB800FCA1AA /* Products */,
+				C11DA74D33D2438198147DD9 /* Pods-Guilloche.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		114A9FC0198DEAB800FCA1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FBF198DEAB800FCA1AA /* Guilloche.app */,
+				114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114A9FC1198DEAB800FCA1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FC2198DEAB900FCA1AA /* Foundation.framework */,
+				114A9FC4198DEAB900FCA1AA /* CoreGraphics.framework */,
+				114A9FC6198DEAB900FCA1AA /* UIKit.framework */,
+				114A9FE1198DEAB900FCA1AA /* XCTest.framework */,
+				2AF0998A09D84B3BB3610ED9 /* libPods-Guilloche.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		114A9FC8198DEAB900FCA1AA /* Guilloche */ = {
+			isa = PBXGroup;
+			children = (
+				1169FFB5198DEAF50038635E /* Classes */,
+				114A9FD1198DEAB900FCA1AA /* AppDelegate.h */,
+				114A9FD2198DEAB900FCA1AA /* AppDelegate.m */,
+				114A9FD4198DEAB900FCA1AA /* Main.storyboard */,
+				114A9FD7198DEAB900FCA1AA /* ViewController.h */,
+				114A9FD8198DEAB900FCA1AA /* ViewController.m */,
+				114A9FDA198DEAB900FCA1AA /* Images.xcassets */,
+				114A9FC9198DEAB900FCA1AA /* Supporting Files */,
+				11603BE319CE225A00CD1DDF /* Launch Screen.xib */,
+			);
+			path = Guilloche;
+			sourceTree = "<group>";
+		};
+		114A9FC9198DEAB900FCA1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FCA198DEAB900FCA1AA /* Guilloche-Info.plist */,
+				114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */,
+				114A9FCE198DEAB900FCA1AA /* main.m */,
+				114A9FD0198DEAB900FCA1AA /* Guilloche-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		114A9FE7198DEAB900FCA1AA /* GuillocheTests */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FED198DEAB900FCA1AA /* GuillocheTests.m */,
+				114A9FE8198DEAB900FCA1AA /* Supporting Files */,
+			);
+			path = GuillocheTests;
+			sourceTree = "<group>";
+		};
+		114A9FE8198DEAB900FCA1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				114A9FE9198DEAB900FCA1AA /* GuillocheTests-Info.plist */,
+				114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1169FFB5198DEAF50038635E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1169FFB9198E0ADC0038635E /* GuillocheView.h */,
+				1169FFBA198E0ADC0038635E /* GuillocheView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114A9FBE198DEAB800FCA1AA /* Guilloche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114A9FF1198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "Guilloche" */;
+			buildPhases = (
+				1A2C67BEC73B4F8D8CD9EA79 /* Check Pods Manifest.lock */,
+				114A9FBB198DEAB800FCA1AA /* Sources */,
+				114A9FBC198DEAB800FCA1AA /* Frameworks */,
+				114A9FBD198DEAB800FCA1AA /* Resources */,
+				974E79EFBDEA46659ED8F001 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guilloche;
+			productName = Guilloche;
+			productReference = 114A9FBF198DEAB800FCA1AA /* Guilloche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		114A9FDF198DEAB900FCA1AA /* GuillocheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114A9FF4198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "GuillocheTests" */;
+			buildPhases = (
+				114A9FDC198DEAB900FCA1AA /* Sources */,
+				114A9FDD198DEAB900FCA1AA /* Frameworks */,
+				114A9FDE198DEAB900FCA1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114A9FE6198DEAB900FCA1AA /* PBXTargetDependency */,
+			);
+			name = GuillocheTests;
+			productName = GuillocheTests;
+			productReference = 114A9FE0198DEAB900FCA1AA /* GuillocheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114A9FB7198DEAB800FCA1AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "smiles+laughs co.";
+				TargetAttributes = {
+					114A9FDF198DEAB900FCA1AA = {
+						TestTargetID = 114A9FBE198DEAB800FCA1AA;
+					};
+				};
+			};
+			buildConfigurationList = 114A9FBA198DEAB800FCA1AA /* Build configuration list for PBXProject "Guilloche" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114A9FB6198DEAB800FCA1AA;
+			productRefGroup = 114A9FC0198DEAB800FCA1AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114A9FBE198DEAB800FCA1AA /* Guilloche */,
+				114A9FDF198DEAB900FCA1AA /* GuillocheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114A9FBD198DEAB800FCA1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FDB198DEAB900FCA1AA /* Images.xcassets in Resources */,
+				11603BE419CE225A00CD1DDF /* Launch Screen.xib in Resources */,
+				114A9FCD198DEAB900FCA1AA /* InfoPlist.strings in Resources */,
+				114A9FD6198DEAB900FCA1AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDE198DEAB900FCA1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FEC198DEAB900FCA1AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A2C67BEC73B4F8D8CD9EA79 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		974E79EFBDEA46659ED8F001 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Guilloche-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114A9FBB198DEAB800FCA1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FD9198DEAB900FCA1AA /* ViewController.m in Sources */,
+				1169FFBB198E0ADC0038635E /* GuillocheView.m in Sources */,
+				114A9FD3198DEAB900FCA1AA /* AppDelegate.m in Sources */,
+				114A9FCF198DEAB900FCA1AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114A9FDC198DEAB900FCA1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114A9FEE198DEAB900FCA1AA /* GuillocheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114A9FE6198DEAB900FCA1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114A9FBE198DEAB800FCA1AA /* Guilloche */;
+			targetProxy = 114A9FE5198DEAB900FCA1AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		114A9FCB198DEAB900FCA1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FCC198DEAB900FCA1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		114A9FD4198DEAB900FCA1AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FD5198DEAB900FCA1AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114A9FEA198DEAB900FCA1AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114A9FEB198DEAB900FCA1AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114A9FEF198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		114A9FF0198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114A9FF2198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11DA74D33D2438198147DD9 /* Pods-Guilloche.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "Guilloche/Guilloche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		114A9FF3198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11DA74D33D2438198147DD9 /* Pods-Guilloche.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "Guilloche/Guilloche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		114A9FF5198DEAB900FCA1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuillocheTests/GuillocheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		114A9FF6198DEAB900FCA1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Guilloche.app/Guilloche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guilloche/Guilloche-Prefix.pch";
+				INFOPLIST_FILE = "GuillocheTests/GuillocheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114A9FBA198DEAB800FCA1AA /* Build configuration list for PBXProject "Guilloche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FEF198DEAB900FCA1AA /* Debug */,
+				114A9FF0198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114A9FF1198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "Guilloche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FF2198DEAB900FCA1AA /* Debug */,
+				114A9FF3198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114A9FF4198DEAB900FCA1AA /* Build configuration list for PBXNativeTarget "GuillocheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114A9FF5198DEAB900FCA1AA /* Debug */,
+				114A9FF6198DEAB900FCA1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114A9FB7198DEAB800FCA1AA /* Project object */;
+}

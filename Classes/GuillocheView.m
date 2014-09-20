@@ -49,7 +49,7 @@ int _section_length = 5;
 	float s = (_R + _r) / _r;
 	float rR = _r + _R;
 	float rp = _r + _p;
-	int _lineColorsCount = _lineColors.count;
+	long long _lineColorsCount = _lineColors.count;
 	
 	for (int t = 0; t <= _steps; t++) {
 		x = rR * cos(_m * theta) + rp * cos(s * _m * theta);
